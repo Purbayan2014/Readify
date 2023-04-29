@@ -12,6 +12,7 @@ import {
     tensorflow2,
     typescript,
 } from '../../Images';
+import { ReturnBook } from './ReturnBook';
 
 export const Carousel = () => {
     return (
@@ -26,206 +27,62 @@ export const Carousel = () => {
                 <div className='carousel-inner'>
                     <div className='carousel-item active'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3'>
-                                <div className='text-center'>
-                                    <img
-                                        src={newbook1}
-                                        width='151'
-                                        height='233'
-                                        alt="book"
-                                    />
-                                    <h6 className='mt-2'>Advanced C# Techniques</h6>
-                                    <p>Readify</p>
-                                    <a className='btn main-color text-white' href='#'>Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook bookImageName={newbook1} bookTitle="Advanced C# Techniques"/>
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3'>
-                                <div className='text-center'>
-                                    <img
-                                        src={newbook2}
-                                        width='151'
-                                        height='233'
-                                        alt="book"
-                                    />
-                                    <h6 className='mt-2'>The Expert Guide to Machine Learning</h6>
-                                    <p>Readify</p>
-                                    <a className='btn main-color text-white' href='#'>Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook bookImageName={newbook2} bookTitle="The Expert Guide to Machine Learning"/>
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3'>
-                                <div className='text-center'>
-                                    <img
-                                        src={coding}
-                                        width='151'
-                                        height='233'
-                                        alt="book"
-                                    />
-                                    <h6 className='mt-2'>Coding for Kids</h6>
-                                    <p>Readify</p>
-                                    <a className='btn main-color text-white' href='#'>Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook bookImageName={coding} bookTitle="Coding for Kids"/>
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3'>
-                                <div className='text-center'>
-                                    <img
-                                        src={masteringtypescript}
-                                        width='151'
-                                        height='233'
-                                        alt="book"
-                                    />
-                                    <h6 className='mt-2'>Mastering Typescript</h6>
-                                    <p>Readify</p>
-                                    <a className='btn main-color text-white' href='#'>Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook bookImageName={masteringtypescript} bookTitle="Mastering Typescript"/>
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3'>
-                                <div className='text-center'>
-                                    <img
-                                        src={pytorch1}
-                                        width='151'
-                                        height='233'
-                                        alt="book"
-                                    />
-                                    <h6 className='mt-2'>Applied Deep Learning with Pytorch</h6>
-                                    <p>Readify</p>
-                                    <a className='btn main-color text-white' href='#'>Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook bookImageName={pytorch1} bookTitle="Applied Deep Learning with Pytorch"/>
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3'>
-                                <div className='text-center'>
-                                    <img
-                                        src={pytorch2}
-                                        width='151'
-                                        height='233'
-                                        alt="book"
-                                    />
-                                    <h6 className='mt-2'>Mastering Pytorch</h6>
-                                    <p>Readify</p>
-                                    <a className='btn main-color text-white' href='#'>Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook bookImageName={pytorch2} bookTitle="Mastering Pytorch"/>
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3'>
-                                <div className='text-center'>
-                                    <img
-                                        src={pytorch3}
-                                        width='151'
-                                        height='233'
-                                        alt="book"
-                                    />
-                                    <h6 className='mt-2'>Deep Learning for Coders with Fast AI and Pytorch</h6>
-                                    <p>Readify</p>
-                                    <a className='btn main-color text-white' href='#'>Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook bookImageName={pytorch3} bookTitle="Deep Learning for Coders with Fast AI and Pytorch"/>
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3'>
-                                <div className='text-center'>
-                                    <img
-                                        src={tensorflow}
-                                        width='151'
-                                        height='233'
-                                        alt="book"
-                                    />
-                                    <h6 className='mt-2'>Tensorflow Machine Learning CookBook</h6>
-                                    <p>Readify</p>
-                                    <a className='btn main-color text-white' href='#'>Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook bookImageName={tensorflow} bookTitle="Tensorflow Machine Learning CookBook"/>
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3'>
-                                <div className='text-center'>
-                                    <img
-                                        src={tensorflow2}
-                                        width='151'
-                                        height='233'
-                                        alt="book"
-                                    />
-                                    <h6 className='mt-2'>Learning Tensorflow.js</h6>
-                                    <p>Readify</p>
-                                    <a className='btn main-color text-white' href='#'>Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook bookImageName={tensorflow2} bookTitle="Learning Tensorflow.js"/>
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3'>
-                                <div className='text-center'>
-                                    <img
-                                        src={protypescript}
-                                        width='151'
-                                        height='233'
-                                        alt="book"
-                                    />
-                                    <h6 className='mt-2'>Pro Typescript</h6>
-                                    <p>Readify</p>
-                                    <a className='btn main-color text-white' href='#'>Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook bookImageName={protypescript} bookTitle="Pro Typescript"/>
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3'>
-                                <div className='text-center'>
-                                    <img
-                                        src={typescript}
-                                        width='151'
-                                        height='233'
-                                        alt="book"
-                                    />
-                                    <h6 className='mt-2'>Effective Typescript</h6>
-                                    <p>Readify</p>
-                                    <a className='btn main-color text-white' href='#'>Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook bookImageName={typescript} bookTitle="Effective Typescript"/>
                         </div>
                     </div>
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3'>
-                                <div className='text-center'>
-                                    <img
-                                        src={readify}
-                                        width='151'
-                                        height='233'
-                                        alt="book"
-                                    />
-                                    <h6 className='mt-2'>Crash Course in Python</h6>
-                                    <p>Readify</p>
-                                    <a className='btn main-color text-white' href='#'>Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBook bookImageName={readify} bookTitle="Crash Course in Python"/>
                         </div>
                     </div>
                     <button className='carousel-control-prev' type='button'

@@ -25,6 +25,7 @@
     "**/*.ts",
     "**/*.js",
     "**/*.tsx",
+    "webpack*",
   ],
   "exclude": ["node_modules"]
 }
