@@ -28,61 +28,33 @@ export const Carousel = () => {
                     <div className='carousel-item active'>
                         <div className='row d-flex justify-content-center align-items-center'>
                             <ReturnBook bookImageName={newbook1} bookTitle="Advanced C# Techniques"/>
-                        </div>
-                    </div>
-                    <div className='carousel-item'>
-                        <div className='row d-flex justify-content-center align-items-center'>
+                            <ReturnBook bookImageName={coding} bookTitle="Coding for Kids"/>
                             <ReturnBook bookImageName={newbook2} bookTitle="The Expert Guide to Machine Learning"/>
                         </div>
                     </div>
+
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <ReturnBook bookImageName={coding} bookTitle="Coding for Kids"/>
+                        <ReturnBook bookImageName={masteringtypescript} bookTitle="Mastering Typescript"/>
+                        <ReturnBook bookImageName={pytorch1} bookTitle="Applied Deep Learning with Pytorch"/>
+                        <ReturnBook bookImageName={pytorch2} bookTitle="Mastering Pytorch"/>
+
                         </div>
                     </div>
+                    
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <ReturnBook bookImageName={masteringtypescript} bookTitle="Mastering Typescript"/>
+                        <ReturnBook bookImageName={pytorch3} bookTitle="Deep Learning for Coders with Fast AI and Pytorch"/>
+                        <ReturnBook bookImageName={tensorflow} bookTitle="Tensorflow Machine Learning CookBook"/>
+                        <ReturnBook bookImageName={tensorflow2} bookTitle="Learning Tensorflow.js"/>
                         </div>
                     </div>
+                    
                     <div className='carousel-item'>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <ReturnBook bookImageName={pytorch1} bookTitle="Applied Deep Learning with Pytorch"/>
-                        </div>
-                    </div>
-                    <div className='carousel-item'>
-                        <div className='row d-flex justify-content-center align-items-center'>
-                            <ReturnBook bookImageName={pytorch2} bookTitle="Mastering Pytorch"/>
-                        </div>
-                    </div>
-                    <div className='carousel-item'>
-                        <div className='row d-flex justify-content-center align-items-center'>
-                            <ReturnBook bookImageName={pytorch3} bookTitle="Deep Learning for Coders with Fast AI and Pytorch"/>
-                        </div>
-                    </div>
-                    <div className='carousel-item'>
-                        <div className='row d-flex justify-content-center align-items-center'>
-                            <ReturnBook bookImageName={tensorflow} bookTitle="Tensorflow Machine Learning CookBook"/>
-                        </div>
-                    </div>
-                    <div className='carousel-item'>
-                        <div className='row d-flex justify-content-center align-items-center'>
-                            <ReturnBook bookImageName={tensorflow2} bookTitle="Learning Tensorflow.js"/>
-                        </div>
-                    </div>
-                    <div className='carousel-item'>
-                        <div className='row d-flex justify-content-center align-items-center'>
-                            <ReturnBook bookImageName={protypescript} bookTitle="Pro Typescript"/>
-                        </div>
-                    </div>
-                    <div className='carousel-item'>
-                        <div className='row d-flex justify-content-center align-items-center'>
-                            <ReturnBook bookImageName={typescript} bookTitle="Effective Typescript"/>
-                        </div>
-                    </div>
-                    <div className='carousel-item'>
-                        <div className='row d-flex justify-content-center align-items-center'>
-                            <ReturnBook bookImageName={readify} bookTitle="Crash Course in Python"/>
+                        <ReturnBook bookImageName={protypescript} bookTitle="Pro Typescript"/>
+                        <ReturnBook bookImageName={typescript} bookTitle="Effective Typescript"/>
+                        <ReturnBook bookImageName={readify} bookTitle="Crash Course in Python"/>
                         </div>
                     </div>
                     <button className='carousel-control-prev' type='button'
