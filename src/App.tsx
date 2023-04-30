@@ -5,6 +5,7 @@ import { ExploreTopBooks } from './components/Home/ExploreTopBooks';
 import { Carousel } from './components/Home/Carousel';
 import { Heros } from './components/Home/Heros';
 import { LibraryServices } from './components/Home/LibraryServices';
+import { Footer } from './components/Home/Footer';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Carousel />
     <Heros />
     <LibraryServices />
+    <Footer/>
     </>
   );
 }

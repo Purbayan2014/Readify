@@ -26,6 +26,7 @@
     "**/*.js",
     "**/*.tsx",
     "webpack*",
+    "/src/components/Home/*;"
   ],
   "exclude": ["node_modules"]
 }
