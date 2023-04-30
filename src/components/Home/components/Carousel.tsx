@@ -11,7 +11,7 @@ import {
     tensorflow,
     tensorflow2,
     typescript,
-} from '../../Images';
+} from '../../../Images';
 import { ReturnBook } from './ReturnBook';
 
 export const Carousel = () => {
