@@ -28,7 +28,8 @@
     "webpack*",
     "/src/components/Home/*;",
     "/src/components/SearchBook/*;",
-    "/src/components/utils/*;"
+    "/src/components/utils/*;",
+    "/src/layouts/*",
   ],
   "exclude": ["node_modules"]
 }
