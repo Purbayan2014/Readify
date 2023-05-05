@@ -26,9 +26,11 @@
     "**/*.js",
     "**/*.tsx",
     "webpack*",
+    "/src/components/*",
+    "/src/components/BooksCheckOut/**/*.tsx",
     "/src/components/Home/*;",
     "/src/components/SearchBook/*;",
-    "/src/components/utils/*;",
+    "/src/components/utils/*.tsx;",
     "/src/layouts/*",
   ],
   "exclude": ["node_modules"]
