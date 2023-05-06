@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Readify 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Readify - the ultimate online book store for all your reading needs! We offer a wide range of books across various categories, including frontend, backend, devops, and data science. Our web application, Readify, is powered by advanced backend APIs with Spring Boot and Spring Repository, and supported by a MySQL database, ensuring secure and efficient transactions. With Stripe payment processing and authentication services, your shopping experience is both smooth and secure. Our intuitive frontend, developed using React and Bootstrap, provides easy navigation and an immersive reading experience. Whether you are a customer or an admin, Readify has got you covered, with exclusive access for admins to add, remove, and update books. Discover the joys of online book shopping with Readify - your one-stop destination for all your reading needs.
 
 ## Available Scripts
 
