@@ -11,7 +11,7 @@ function FirebaseReset() {
   const [user, loading, error] = useAuthState(auth);
   const navigate = useHistory();
   useEffect(() => {
-    if (loading) return <SpinnerLoading/>;
+    if (loading) return () => {};
     if (user) navigate.push("/reset");
   }, [user, loading, navigate]);
   return (
