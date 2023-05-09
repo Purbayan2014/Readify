@@ -3,6 +3,7 @@ import { initializeApp } from "firebase/app";
 import { GoogleAuthProvider, getAuth, signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, 
          sendPasswordResetEmail, signOut} from 'firebase/auth';
 import { getFirestore, query, getDocs, collection, where, addDoc,  } from 'firebase/firestore';
+import { HashCred } from "../utils/Hasher";
 
 
 const app = initializeApp(firebaseConfig);
@@ -46,9 +47,10 @@ const registerWithEmailAndPassword = async (name , email, password) => {
     const user = res.user;
     await addDoc(collection(db, "users"), {
       uid: user.uid,
-      name,
+      name: name,
       authProvider: "local",
-      email,
+      email : user.email,
+      passwordHash : HashCred(password),
     });
   } catch (err) {
     console.error(err);
