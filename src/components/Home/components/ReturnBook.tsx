@@ -2,6 +2,7 @@ import BookModel from '../../../models/BookModel';
 import {
   readify
 } from '../../../Images';
+import { Link } from 'react-router-dom';
 
 
 export const ReturnBook : React.FC<{book : BookModel}> = (props) => {
@@ -17,9 +18,9 @@ export const ReturnBook : React.FC<{book : BookModel}> = (props) => {
         }
         <h6 className="mt-2">{props.book.title}</h6>
           <p>{props.book.author}</p>
-          <a className="btn main-color text-white" href="#">
+          <Link className="btn main-color text-white" to={`checkout/${props.book.id}`}>
             Reserve
-          </a>
+          </Link>
         </div>
       </div>
     );
